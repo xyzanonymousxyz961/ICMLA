@@ -1,10 +1,8 @@
 # Online Appendix for "Cloud Failure Prediction with Hierarchical Temporary Memory: An Empirical Assessment"
 
-## A.1. The detailed list of monitored KPIs
+## A.1. Prediction Effectiveness
 
-## A.2. Prediction Effectiveness
-
-### A.2.1 Single Resource Global Prediction
+### A.1.1 Single Resource Global Prediction
 
 | Epsilon | n | x | Precision   | Recall      | F-measure   |
 | ------- | - | - | ----------- | ----------- | ----------- |
@@ -57,7 +55,7 @@
 | 0.95    | 2 | 2 | 0.611111111 | 0.916666667 | 0.733333333 |
 | 0.95    | 2 | 1 | 0.47826087  | 0.916666667 | 0.628571429 |
 
-### A.2.2 Vote-based Global Prediction
+### A.1.2 Vote-based Global Prediction
 
 | Epsilon | n | y | Precision   | Recall      | F-measure   |
 | ------- | - | - | ----------- | ----------- | ----------- |
@@ -85,3 +83,7 @@
 | 0.95    | 2 | 3 | 0           | 0           | 0           |
 | 0.95    | 2 | 2 | 1           | 0.083333333 | 0.153846154 |
 | 0.95    | 2 | 1 | 1           | 0.083333333 | 0.153846154 |.
+
+## A.1. List of monitored KPIs in each resource
+
+
