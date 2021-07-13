@@ -87,33 +87,51 @@
 ## A.1. List of monitored componenent KPIs
 
 io.Avg_req_queue_length
+
 io.Avg_wait_time
+
 io.Read_bytes_per_sec
+
 io.Write_bytes_per_sec
 
 network.Bytes_received_per_sec
+
 network.Bytes_send_per_sec      
+
 network.Loss_rate_5s
+
 network.Pkts_received_5s_python
+
 network.Pkts_sent_5s_python
+
 network.Retransmission
-    
+
 vm_stats.Memory_Used
+
 vm_stats.Memory__Cached
+
 vm_stats.Memory_in_Buffers
+
 vm_stats.Swap_Space_Used
 
 sockets.Sockets_in_use
 
 system.Cxt_Switches_per_sec
+
 system.Pages_Faults_per_sec
+
 system.Pages_Swapped_in
+
 system.Pages_Swapped_out
+
 system.Pages_paged_out_per_sec
+
 system.Total_Number_Processes
 
 cpu.Busy_CPU
+
 cpu.System_CPU
+
 cpu.User_CPU
 
 
